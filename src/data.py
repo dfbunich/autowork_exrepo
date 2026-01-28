@@ -32,8 +32,15 @@ def save_data(data: np.ndarray, filename: str) -> None:
 
     return None
 
-def load_data(filename: str) -> np.ndarray:
+def load_data():
     '''
     Loads data from an .npy file located in the default data directory.
+    ---
+    I kinda lost track, so I have a placeholder.
     '''
-    return None
+    exclamation_of_success = 'Yay, this function works!'
+    print(exclamation_of_success)
+    return exclamation_of_success
+
+# uv add jupyter
+# uv run jupyter lab
